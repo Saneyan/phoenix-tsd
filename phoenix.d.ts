@@ -68,7 +68,7 @@ declare module phoenix {
     pushBuffer: Push[];
     rejoinTimer: Timer;
 
-    constructor(topic: string, params?: any, socket: Socket);
+    constructor(topic: string, params: any, socket: Socket);
     rejoinUntilConnected(): void;
     join(): Push;
     onClone(callback: Function): void;
