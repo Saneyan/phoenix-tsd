@@ -1,6 +1,6 @@
 {
   "name": "phoenix-tsd",
-  "description": "",
+  "description": "Type definitions for phoenix.js bundled in Phoneix Framework.",
   "version": "0.1.0",
   "author": {
     "name": "TADOKORO Saneyuki",
