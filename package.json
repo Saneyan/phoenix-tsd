@@ -1,7 +1,10 @@
 {
   "name": "phoenix-tsd",
   "description": "Type definitions for phoenix.js bundled in Phoneix Framework.",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "typescript": {
+    "definition": "phoenix.d.ts"
+  },
   "author": {
     "name": "TADOKORO Saneyuki",
     "email": "saneyan@gfunction.com",
