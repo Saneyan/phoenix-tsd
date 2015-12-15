@@ -1,7 +1,7 @@
 {
   "name": "phoenix-tsd",
   "description": "Type definitions for phoenix.js bundled in Phoneix Framework.",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "typescript": {
     "definition": "phoenix.d.ts"
   },

@@ -1,7 +1,6 @@
 // Type definitions for Phoenix 1.0.0
 // Project: http://phoenixframework.org/
 // Definitions by: TADOKORO Saneyuki <https://github.com/Saneyan/>
-// Definitions: https://github.com/borisyankov/DefinitelyTyped
 
 declare module phoenix {
 
@@ -90,6 +89,7 @@ declare module phoenix {
   }
 
   interface SocketOptions {
+    params?: any;
     transport?: WebSocket;
     heartbeatIntervalMs?: number;
     reconnectAfterMs?: number;
@@ -123,7 +123,7 @@ declare module phoenix {
     protocol(): string;
     endPointURL(): string;
     disconnect(callback: Function, code: number, reason: any): void;
-    connect(params: any): void;
+    connect(params?: any): void;
     log(kind: string, msg: string, data: any): void;
     onOpen(callback: Function): void;
     onClone(callback: Function): void;
