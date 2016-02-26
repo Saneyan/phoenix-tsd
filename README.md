@@ -1,6 +1,9 @@
 # phoenix-tsd
 Type definitions for phoenix.js bundled in Phoenix Framework
 
+**This repository has been deprecated.**
+Use **[phoenix-typings](https://github.com/Saneyan/phoenix-typings)** for typings instead.
+
 ## Installation
 
 ```
